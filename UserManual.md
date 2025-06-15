@@ -132,31 +132,7 @@ Backend setup instructions will be added later.
    - Filter options
    - Sort capabilities
 
-3. **Conversation View**
-   - Message history
-   - Sentiment indicators
-   - Timestamp display
-   - Action buttons
 
-### Features and Controls
-
-#### Conversation Management
-1. **Starting a New Conversation**
-   - Click "New Conversation" button
-   - Enter initial message
-   - Select conversation type
-
-2. **Viewing Conversations**
-   - Click on conversation in list
-   - View full conversation history
-   - Check sentiment analysis
-   - Export conversation data
-
-3. **Managing Conversations**
-   - Archive conversations
-   - Delete conversations
-   - Export conversations
-   - Share conversations
 
 #### Sentiment Analysis
 1. **Understanding Sentiment Indicators**
