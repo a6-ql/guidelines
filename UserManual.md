@@ -57,19 +57,8 @@ This manual provides comprehensive documentation for users and administrators to
      ```
 
 2. **Python Environment**
-   - Version: Python 3.8 or higher
-   - Installation:
-     ```bash
-     # Windows
-     Download and run the installer from python.org
-     
-     # Linux
-     sudo apt-get update
-     sudo apt-get install python3.8
-     
-     # macOS
-     brew install python@3.8
-     ```
+@back-end
+Python environment setup details will be added later.
 
 3. **Git**
    - Version: 2.20.0 or higher
@@ -88,46 +77,8 @@ This manual provides comprehensive documentation for users and administrators to
 ### Installation Process
 
 #### 1. Backend Setup
-
-1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-   cd <project-directory>
-   ```
-
-2. **Set Up Python Virtual Environment**
-   ```bash
-   # Windows
-   python -m venv venv
-   .\venv\Scripts\activate
-   
-   # Linux/macOS
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Configure Environment Variables**
-   Create a `.env` file in the backend directory with the following variables:
-   ```
-   DEBUG=True
-   SECRET_KEY=your_secret_key
-   DATABASE_URL=your_database_url
-   ```
-
-5. **Initialize Database**
-   ```bash
-   python manage.py migrate
-   ```
-
-6. **Start Backend Server**
-   ```bash
-   python manage.py runserver
-   ```
+@back-end
+Backend setup instructions will be added later.
 
 #### 2. Frontend Setup
 
@@ -161,10 +112,10 @@ This manual provides comprehensive documentation for users and administrators to
 - Bootstrap for styling
 
 ### Backend Architecture
-- Django REST Framework
-- PostgreSQL database
-- JWT authentication
-- Sentiment analysis integration
+@back-end
+- Backend architecture details to be added
+- Database configuration to be added
+- API endpoints to be added
 
 ## User Interface Guide
 
@@ -228,21 +179,8 @@ This manual provides comprehensive documentation for users and administrators to
 - `Esc`: Close modal/panel
 
 ### API Integration
-1. **Authentication**
-   ```javascript
-   const token = await api.login(username, password);
-   ```
-
-2. **Conversation Management**
-   ```javascript
-   const conversations = await api.getConversations();
-   const conversation = await api.getConversation(id);
-   ```
-
-3. **Sentiment Analysis**
-   ```javascript
-   const sentiment = await api.getSentiment(conversationId);
-   ```
+@back-end
+API integration details will be added later.
 
 ## Troubleshooting and Support
 
