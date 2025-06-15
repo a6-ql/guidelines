@@ -16,25 +16,53 @@ Before installing the application, ensure you have the following installed:
 @back-end
 - Python (v3.8 or higher)
 - pip (Python package manager)
+@AI
+- openai
+- pinecone-client
+- tqdm
+- numpy
+- pandas
+- scikit-learn
+- sentence-transformers
+- requests
+- python-dotenv
+- google-generativeai
+
 
 ### Backend Setup
 @back-end
 Backend setup instructions will be added later.
+### RAG pipeline Setup
+Follow the steps below to set up and run the RAG-based chatbot:
 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/TareKelKhateb/InstaBot.git
+   cd InstaBot
+   ```
+
+2. **Create a `.env` File**
+
+   In the root directory, create a `.env` file and add your API keys:
+   ```env
+   PINECONE_API_KEY=your_pinecone_api_key
+   GEMINI_API_KEY=your_gemini_api_key
+   ```
+
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Application**
+   ```bash
+   python main.py
+   ```
 ### Frontend Setup
-1. Navigate to the frontend directory:
 ```bash
-cd frontend
-```
-
-2. Install Node.js dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm start
+cd frontend #Navigate to the frontend directory
+npm install #Install Node.js dependencies
+npm start   #Start the development server
 ```
 The frontend application will run on http://localhost:5173
 
@@ -50,6 +78,7 @@ The frontend application will run on http://localhost:5173
 - RAM: 8GB or higher
 - Storage: 2GB free space
 - High-speed internet connection
+- 6 VRAM GPU
 
 ## Getting Started
 
