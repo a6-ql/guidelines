@@ -13,37 +13,13 @@
 Before installing the application, ensure you have the following installed:
 - Node.js (v14.0.0 or higher)
 - npm (v6.0.0 or higher)
+@back-end
 - Python (v3.8 or higher)
 - pip (Python package manager)
 
 ### Backend Setup
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd <project-directory>
-```
-
-2. Set up the Python virtual environment:
-```bash
-# Windows
-python -m venv venv
-.\venv\Scripts\activate
-
-# Linux/Mac
-python3 -m venv venv
-source venv/bin/activate
-```
-
-3. Install Python dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-4. Start the backend server:
-```bash
-python manage.py runserver
-```
-The backend server will run on http://localhost:8000
+@back-end
+Backend setup instructions will be added later.
 
 ### Frontend Setup
 1. Navigate to the frontend directory:
@@ -109,9 +85,8 @@ The application provides sentiment analysis for each conversation:
 ### Common Issues and Solutions
 
 1. **Backend Server Not Starting**
-   - Ensure all Python dependencies are installed
-   - Check if port 8000 is available
-   - Verify Python virtual environment is activated
+@back-end
+Backend troubleshooting details will be added later.
 
 2. **Frontend Not Loading**
    - Ensure Node.js and npm are properly installed
@@ -119,9 +94,8 @@ The application provides sentiment analysis for each conversation:
    - Verify port 3000 is available
 
 3. **API Connection Issues**
-   - Ensure both frontend and backend servers are running
-   - Check your internet connection
-   - Verify API endpoint URLs in the configuration
+@back-end
+API connection troubleshooting details will be added later.
 
 ### Getting Help
 If you encounter any issues not covered in this manual:
