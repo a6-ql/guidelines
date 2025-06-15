@@ -36,7 +36,7 @@ npm install
 ```bash
 npm start
 ```
-The frontend application will run on http://localhost:3000
+The frontend application will run on http://localhost:5173
 
 ## System Requirements
 
@@ -53,7 +53,7 @@ The frontend application will run on http://localhost:3000
 
 ## Getting Started
 
-1. After installation, open your web browser and navigate to http://localhost:3000
+1. After installation, open your web browser and navigate to http://localhost:5173/
 2. You'll be presented with the login page
 3. Enter your credentials to access the application
 4. Upon successful login, you'll be redirected to the main dashboard
